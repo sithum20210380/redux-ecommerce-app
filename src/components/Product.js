@@ -33,7 +33,7 @@ const Product = () => {
 
     return (
         <div>
-            <h1>Products</h1>
+            <h1>E-Commerce App</h1>
             <div className="row">
                 {cards}
             </div>
