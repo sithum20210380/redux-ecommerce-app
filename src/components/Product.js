@@ -22,7 +22,7 @@ const Product = () => {
                 <Card.Title>{product.title}</Card.Title>
                 <Card.Text>
                 INR: {product.price}
-                {product.description}
+                //deleted the description
                 </Card.Text>
             </Card.Body>
             <Card.Footer style={{background: 'white'}}>
