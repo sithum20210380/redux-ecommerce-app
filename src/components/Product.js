@@ -22,6 +22,7 @@ const Product = () => {
                 <Card.Title>{product.title}</Card.Title>
                 <Card.Text>
                 INR: {product.price}
+                {product.description}
                 </Card.Text>
             </Card.Body>
             <Card.Footer style={{background: 'white'}}>
@@ -33,7 +34,7 @@ const Product = () => {
 
     return (
         <div>
-            <h1>Products</h1>
+            <h1>E-Commerce App</h1>
             <div className="row">
                 {cards}
             </div>
