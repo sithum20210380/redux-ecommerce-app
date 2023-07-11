@@ -23,8 +23,6 @@ const Product = () => {
                 <Card.Text>
                 INR: {product.price}
                 {product.description}
-                //chages to be done
-                //fhfhfhfhfhfhfh
                 </Card.Text>
             </Card.Body>
             <Card.Footer style={{background: 'white'}}>
