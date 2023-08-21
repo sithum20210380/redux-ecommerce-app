@@ -18,7 +18,6 @@ const Cart = () => {
             <Card.Body>
                 <Card.Title>{product.title}</Card.Title>
                 <Card.Text>
-                    //curency
                 INR: {product.price}
                 </Card.Text>
             </Card.Body>
