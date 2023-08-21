@@ -19,6 +19,7 @@ const Cart = () => {
                 <Card.Title>{product.title}</Card.Title>
                 <Card.Text>
                 //usdollar
+                //srilanka rupees
                 INR: {product.price}
                 </Card.Text>
             </Card.Body>
