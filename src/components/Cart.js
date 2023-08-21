@@ -18,6 +18,9 @@ const Cart = () => {
             <Card.Body>
                 <Card.Title>{product.title}</Card.Title>
                 <Card.Text>
+                //usdollar
+                //srilanka rupees
+                //indian ruppees
                 INR: {product.price}
                 </Card.Text>
             </Card.Body>
