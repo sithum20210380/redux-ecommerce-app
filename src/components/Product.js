@@ -20,7 +20,7 @@ const Product = () => {
     }
 
     if(status === StatusCode.ERROR){
-        return <Alert key="danger" variant="danger">Something went wrong! Try again later</Alert>
+        return <Alert key="danger" variant="danger">Something went wrong! Try again later!</Alert>
     }
 
     const addToCart = (product) => {
